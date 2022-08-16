@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { Letter } from "./Letter"
 
-export class Letters extends Component {
+class Letters extends Component {
 
     render() {
         return (

@@ -1,6 +1,6 @@
 import { Component } from "react"
 
-export class Solution extends Component {
+class Solution extends Component {
 
     render() {
         let underScores = ["_", "_", "_", "_"];

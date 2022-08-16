@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-export class Letter extends Component {
+class Letter extends Component {
 
     render() {
         return (

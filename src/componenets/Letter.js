@@ -1,12 +1,16 @@
 import { Component } from "react";
+import './Letter.css'
+export class Letter extends Component {
 
-class Letter extends Component {
+    selectLetter = () => {
+        this.props.selectLetter(this.props.letter)
+    }
 
     render() {
+
         return (
-            <div>a</div>
+            <span onClick={this.selectLetter}>{this.props.letter}</span>
         )
     }
 }
 
-export default Letter
